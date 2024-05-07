@@ -9,9 +9,10 @@ class MainMultiplicacion {
       int Y = op.nextInt();
 
       Multiplicacion primera = new Multiplicacion();
-      primera.x = X;
-      primera.y = Y;
+      primera.setX(X);
+      primera.setY(Y);      
+      System.out.println("\nEl resultado es: " + primera.mostrarMultiplicacion());
       
-      primera.mostrarMultiplicacion();
+      System.out.println(primera);
    }
 }
